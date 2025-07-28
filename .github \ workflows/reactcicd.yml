@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    branches: [main]git add 
 
 permissions:
   contents: write  
@@ -34,8 +34,8 @@ jobs:
       # Configure Git identity
       - name: Configure Git
         run: |
-          git config --global user.name "suneethabulla"
-          git config --global user.email "suneethabulla@example.com"
+          git config --global user.name "tanuhyakatari"
+          git config --global user.email "tanuhyakatri@gmail.com"
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
